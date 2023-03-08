@@ -4,36 +4,36 @@
   box-sizing: border-box;
 }
 
-header {
+.main-visual {
   height: 400px;
+  width: 100%;
   background-image: url(img/mv.jpg);
   background-size: cover;
-  background-position: bottom center;
+  background-position: bottom;
 }
 
 .heading {
   padding: 20px;
-  color: gray;
 }
 
 main {
   width: 840px;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
-.contents-box {
-  padding: 20px 0 50px 0;
-}
-
-.contents-item{
+.contents-item1 {
+  margin-bottom: 30px;
   border-bottom: 1px solid gray;
-  padding: 30px 0;
+  padding-bottom: 30px;
 }
 
-.contents-text {
-  color: gray;
+.contents-item2 {
+  margin-bottom: 30px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 30px;
 }
 
-.contents-link {
-  color: gray;
+.contents-item4 {
+  border-bottom: 1px solid gray;
+  padding-bottom: 30px;
 }
